@@ -15,8 +15,7 @@
     "build-min": "NODE_ENV=production webpack -p modules/index.js umd/ReactRouter.min.js",
     "lint": "eslint modules examples",
     "start": "node examples/server.js",
-    "test": "npm run lint && karma start",
-    "postinstall": "node ./npm-scripts/postinstall.js"
+    "test": "npm run lint && karma start"
   },
   "authors": [
     "Ryan Florence",
